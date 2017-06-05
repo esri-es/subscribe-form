@@ -1,0 +1,26 @@
+{
+  "name": "dev-esri-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack --progress --colors --watch",
+    "serve": "./node_modules/.bin/webpack-dev-server --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esri-es/subscribe-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esri-es/subscribe-form/issues"
+  },
+  "homepage": "https://github.com/esri-es/subscribe-form#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
